@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InfoWebView" customModule="Marina_Home" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="yAf-oC-uOv" id="9ON-oI-BiM"/>
+                <outlet property="lblTitle" destination="JMn-kN-nSf" id="2RT-dy-dQJ"/>
+                <outlet property="webView" destination="FjJ-Uw-1qT" id="cKj-vn-NHh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Zmh-Qv-VEw">
+                    <rect key="frame" x="0.0" y="89" width="393" height="763"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y4b-hr-Ccd" customClass="AppHeaderView" customModule="Marina_Home" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="72"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMn-kN-nSf">
+                                    <rect key="frame" x="196.66666666666666" y="36" width="0.0" height="0.0"/>
+                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAf-oC-uOv">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="72"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="64" id="CMW-hx-P8U"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="back_arrow"/>
+                                    <connections>
+                                        <action selector="closeBtnAction:" destination="-1" eventType="touchUpInside" id="0gJ-6g-2wy"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gJ2-Ld-qit">
+                                    <rect key="frame" x="0.0" y="71.666666666666657" width="393" height="0.3333333333333286"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="0.5" id="kJe-sc-53T"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="JMn-kN-nSf" firstAttribute="centerX" secondItem="Y4b-hr-Ccd" secondAttribute="centerX" id="6iz-Pn-1Ng"/>
+                                <constraint firstItem="JMn-kN-nSf" firstAttribute="centerY" secondItem="Y4b-hr-Ccd" secondAttribute="centerY" id="7wq-z4-grT"/>
+                                <constraint firstItem="yAf-oC-uOv" firstAttribute="centerY" secondItem="Y4b-hr-Ccd" secondAttribute="centerY" id="CvU-RN-E6O"/>
+                                <constraint firstItem="gJ2-Ld-qit" firstAttribute="leading" secondItem="Y4b-hr-Ccd" secondAttribute="leading" id="EiW-ix-dNh"/>
+                                <constraint firstAttribute="bottom" secondItem="gJ2-Ld-qit" secondAttribute="bottom" id="Zid-LE-yPZ"/>
+                                <constraint firstAttribute="bottom" secondItem="yAf-oC-uOv" secondAttribute="bottom" id="cLn-9e-fmf"/>
+                                <constraint firstAttribute="height" constant="72" id="ggy-L1-hHX"/>
+                                <constraint firstItem="yAf-oC-uOv" firstAttribute="leading" secondItem="Y4b-hr-Ccd" secondAttribute="leading" id="nmA-ca-A7C"/>
+                                <constraint firstItem="yAf-oC-uOv" firstAttribute="top" secondItem="Y4b-hr-Ccd" secondAttribute="top" id="sm2-c9-PaL"/>
+                                <constraint firstAttribute="trailing" secondItem="gJ2-Ld-qit" secondAttribute="trailing" id="uCf-N7-2kG"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="addNormalShadow" value="YES"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="addBezierShadow" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FjJ-Uw-1qT">
+                            <rect key="frame" x="0.0" y="72" width="393" height="691"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <wkWebViewConfiguration key="configuration">
+                                <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                <wkPreferences key="preferences"/>
+                            </wkWebViewConfiguration>
+                        </wkWebView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Zmh-Qv-VEw" secondAttribute="bottom" id="0nQ-bz-hqo"/>
+                <constraint firstItem="Zmh-Qv-VEw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MXo-nj-g1h"/>
+                <constraint firstItem="Zmh-Qv-VEw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="WOR-PG-5iA"/>
+                <constraint firstAttribute="trailing" secondItem="Zmh-Qv-VEw" secondAttribute="trailing" id="vK0-6s-wFa"/>
+            </constraints>
+            <point key="canvasLocation" x="65" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back_arrow" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

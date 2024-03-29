@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressListTVC_id" rowHeight="286" id="KGk-i7-Jjw" customClass="AddressListTVC" customModule="Marina_Home" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="286"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="447" height="286"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XYF-cU-iAh">
+                        <rect key="frame" x="0.0" y="0.0" width="447" height="286"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fK4-sR-dWO" customClass="BorderedView" customModule="Marina_Home" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="10" width="447" height="266"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pw0-CC-ih3">
+                                        <rect key="frame" x="15" y="15" width="417" height="236"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qkv-C4-5jc">
+                                                <rect key="frame" x="0.0" y="0.0" width="417" height="24"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdM-fl-fFg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="332" height="24"/>
+                                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEFAULT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5t-rc-eKy">
+                                                        <rect key="frame" x="337" y="0.0" width="80" height="24"/>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="80" id="ABr-Py-0dD"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="13"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="zuf-Xh-pnm"/>
+                                                </constraints>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Francis Xavier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8U-sj-Bse">
+                                                <rect key="frame" x="0.0" y="35" width="417" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="16" id="9Dl-uM-hV0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House, Box No. 181340, Dubai, UAE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k81-gp-7Ef">
+                                                <rect key="frame" x="0.0" y="61" width="417" height="135"/>
+                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                                                <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="3Yc-7g-tRZ">
+                                                <rect key="frame" x="0.0" y="206" width="417" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83a-5Y-Thg" customClass="AppButtonUnderlineBlack" customModule="Marina_Home" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
+                                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="13"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="EDIT YOUR ADDRESS">
+                                                            <color key="titleColor" systemColor="labelColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvN-2p-pXl" customClass="AppButtonUnderlineBlack" customModule="Marina_Home" customModuleProvider="target">
+                                                        <rect key="frame" x="160" y="0.0" width="55" height="30"/>
+                                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="13"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="REMOVE">
+                                                            <color key="titleColor" systemColor="labelColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iWP-mg-nIz">
+                                                        <rect key="frame" x="245" y="0.0" width="172" height="30"/>
+                                                    </view>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="2dX-w2-P3u"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="N8U-sj-Bse" firstAttribute="top" secondItem="qkv-C4-5jc" secondAttribute="bottom" constant="11" id="4Lt-YY-Odf"/>
+                                            <constraint firstItem="qkv-C4-5jc" firstAttribute="leading" secondItem="Pw0-CC-ih3" secondAttribute="leading" id="D4Z-if-n1M"/>
+                                            <constraint firstItem="k81-gp-7Ef" firstAttribute="top" secondItem="N8U-sj-Bse" secondAttribute="bottom" constant="10" id="D8a-LK-Jdx"/>
+                                            <constraint firstAttribute="trailing" secondItem="qkv-C4-5jc" secondAttribute="trailing" id="Eog-Hj-eoq"/>
+                                            <constraint firstAttribute="trailing" secondItem="N8U-sj-Bse" secondAttribute="trailing" id="HgE-tn-r5a"/>
+                                            <constraint firstItem="3Yc-7g-tRZ" firstAttribute="leading" secondItem="Pw0-CC-ih3" secondAttribute="leading" id="NBB-Ua-yvk"/>
+                                            <constraint firstItem="k81-gp-7Ef" firstAttribute="leading" secondItem="Pw0-CC-ih3" secondAttribute="leading" id="O8a-7e-kPO"/>
+                                            <constraint firstItem="N8U-sj-Bse" firstAttribute="leading" secondItem="Pw0-CC-ih3" secondAttribute="leading" id="QTj-NQ-SiY"/>
+                                            <constraint firstAttribute="trailing" secondItem="3Yc-7g-tRZ" secondAttribute="trailing" id="WXd-X8-DQp"/>
+                                            <constraint firstAttribute="trailing" secondItem="k81-gp-7Ef" secondAttribute="trailing" id="de1-Dp-I3a"/>
+                                            <constraint firstItem="qkv-C4-5jc" firstAttribute="top" secondItem="Pw0-CC-ih3" secondAttribute="top" id="jo5-rq-Y7u"/>
+                                            <constraint firstItem="3Yc-7g-tRZ" firstAttribute="top" secondItem="k81-gp-7Ef" secondAttribute="bottom" constant="10" id="nop-Vx-1MB"/>
+                                            <constraint firstAttribute="bottom" secondItem="3Yc-7g-tRZ" secondAttribute="bottom" id="pbc-FF-AHe"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Pw0-CC-ih3" firstAttribute="leading" secondItem="fK4-sR-dWO" secondAttribute="leading" constant="15" id="JLG-Yd-GMc"/>
+                                    <constraint firstItem="Pw0-CC-ih3" firstAttribute="top" secondItem="fK4-sR-dWO" secondAttribute="top" constant="15" id="hho-Os-oal"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pw0-CC-ih3" secondAttribute="bottom" constant="15" id="ka0-bQ-jdA"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pw0-CC-ih3" secondAttribute="trailing" constant="15" id="vPj-j1-BVu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="fK4-sR-dWO" firstAttribute="leading" secondItem="XYF-cU-iAh" secondAttribute="leading" id="MKv-IC-znP"/>
+                            <constraint firstAttribute="bottom" secondItem="fK4-sR-dWO" secondAttribute="bottom" constant="10" id="Tsn-kT-6A3"/>
+                            <constraint firstAttribute="trailing" secondItem="fK4-sR-dWO" secondAttribute="trailing" id="UJu-y3-lUZ"/>
+                            <constraint firstItem="fK4-sR-dWO" firstAttribute="top" secondItem="XYF-cU-iAh" secondAttribute="top" constant="10" id="hwv-i1-sc9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="XYF-cU-iAh" secondAttribute="bottom" id="1U9-Ja-pcN"/>
+                    <constraint firstItem="XYF-cU-iAh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Y5r-e8-idy"/>
+                    <constraint firstItem="XYF-cU-iAh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hiS-jc-a8b"/>
+                    <constraint firstAttribute="trailing" secondItem="XYF-cU-iAh" secondAttribute="trailing" id="uDr-nK-vZX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLbl" destination="k81-gp-7Ef" id="v50-mf-USx"/>
+                <outlet property="editButton" destination="83a-5Y-Thg" id="Xd4-Ty-h4N"/>
+                <outlet property="fullNameLbl" destination="N8U-sj-Bse" id="h67-eO-Kat"/>
+                <outlet property="isDefaultLbl" destination="B5t-rc-eKy" id="brB-eQ-ypL"/>
+                <outlet property="removeButton" destination="hvN-2p-pXl" id="2ql-dm-bc0"/>
+            </connections>
+            <point key="canvasLocation" x="188.54961832061068" y="73.239436619718319"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

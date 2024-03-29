@@ -1,0 +1,6 @@
+framework module MediaSlideshow {
+  umbrella header "MediaSlideshow-umbrella.h"
+
+  export *
+  module * { export * }
+}

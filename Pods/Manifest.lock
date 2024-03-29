@@ -1,0 +1,151 @@
+PODS:
+  - Alamofire (5.8.1)
+  - AnyCodable-FlightSchool (0.6.7)
+  - AppAuth (1.6.2):
+    - AppAuth/Core (= 1.6.2)
+    - AppAuth/ExternalUserAgent (= 1.6.2)
+  - AppAuth/Core (1.6.2)
+  - AppAuth/ExternalUserAgent (1.6.2):
+    - AppAuth/Core
+  - Checkout (4.2.1):
+    - CheckoutEventLoggerKit (~> 1.2.4)
+  - CheckoutEventLoggerKit (1.2.4)
+  - DropDown (2.3.13)
+  - Frames (4.2.1):
+    - Checkout (= 4.2.1)
+    - CheckoutEventLoggerKit (~> 1.2.4)
+    - PhoneNumberKit
+  - FSCalendar (2.8.4)
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (7.4.0)
+  - GoogleSignIn (7.0.0):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (< 3.0, >= 1.3)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+  - GoogleSignInSwift (0.3.2)
+  - GTMAppAuth (2.0.0):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.5)
+  - GTMSessionFetcher/Core (3.1.1)
+  - IQKeyboardManager (6.5.16)
+  - Kingfisher (7.11.0)
+  - KlaviyoSwift (2.4.0):
+    - AnyCodable-FlightSchool
+  - McPicker (3.0.0)
+  - MediaSlideshow/Core (2.1.1)
+  - MediaSlideshow/Kingfisher (2.1.1):
+    - Kingfisher (> 3.0)
+    - MediaSlideshow/Core
+  - NewRelicAgent (7.4.7)
+  - PageControls/PillPageControl (1.0.1)
+  - PhoneNumberKit (3.7.4):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.7.4)
+    - PhoneNumberKit/UIKit (= 3.7.4)
+  - PhoneNumberKit/PhoneNumberKitCore (3.7.4)
+  - PhoneNumberKit/UIKit (3.7.4):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - SDWebImage (5.18.3):
+    - SDWebImage/Core (= 5.18.3)
+  - SDWebImage/Core (5.18.3)
+  - SkeletonView (1.30.4)
+  - TTGTagCollectionView (2.4.2)
+  - UBottomSheet (1.0.10)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - Frames (~> 4)
+  - FSCalendar
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleSignIn
+  - GoogleSignInSwift
+  - IQKeyboardManager
+  - KlaviyoSwift (~> 2.4.0)
+  - McPicker (~> 3.0.0)
+  - MediaSlideshow/Kingfisher (from `./`)
+  - NewRelicAgent
+  - PageControls/PillPageControl
+  - PhoneNumberKit (from `https://github.com/marmelroy/PhoneNumberKit`)
+  - SDWebImage
+  - SkeletonView
+  - TTGTagCollectionView
+  - UBottomSheet (from `https://github.com/mmujassam/UBottomSheet`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AnyCodable-FlightSchool
+    - AppAuth
+    - Checkout
+    - CheckoutEventLoggerKit
+    - DropDown
+    - Frames
+    - FSCalendar
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleSignInSwift
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IQKeyboardManager
+    - Kingfisher
+    - KlaviyoSwift
+    - McPicker
+    - NewRelicAgent
+    - PageControls
+    - SDWebImage
+    - SkeletonView
+    - TTGTagCollectionView
+
+EXTERNAL SOURCES:
+  MediaSlideshow:
+    :path: "./"
+  PhoneNumberKit:
+    :git: https://github.com/marmelroy/PhoneNumberKit
+  UBottomSheet:
+    :git: https://github.com/mmujassam/UBottomSheet
+
+CHECKOUT OPTIONS:
+  PhoneNumberKit:
+    :commit: 0c9f772baaaa39d5786dc94e812661c24094e6aa
+    :git: https://github.com/marmelroy/PhoneNumberKit
+  UBottomSheet:
+    :commit: 188df2b9b14bb6b9e31daea88628006d43f1cce1
+    :git: https://github.com/mmujassam/UBottomSheet
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  AnyCodable-FlightSchool: 261cbe76757802b17d471b9059b21e6fa5edf57b
+  AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
+  Checkout: 36a9c9786deea2b037014843bbc81a255a1dafad
+  CheckoutEventLoggerKit: b780dec46295a34942780ea6230d0d5fd08aa05a
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Frames: 4194ebe4fc49bd8a63d71b079a43f20c75680ceb
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
+  GooglePlaces: 544e908d94860bf6f8fc1865b80d2c7eb6b5f937
+  GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
+  GoogleSignInSwift: b7d54b0ab8d9fd17928ab9b68d91a65d82e056d7
+  GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
+  GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
+  IQKeyboardManager: 024b54d7dcb765c5bc99882cb4d5ea24a8cb7c3c
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  KlaviyoSwift: 9c7abb283be65363cd5e52f88fd7628cf624d867
+  McPicker: ba38be56a8194faa5249eca4226c364eed628044
+  MediaSlideshow: adf1fd72ab37f3ecc78f74cc1da67f9cfdfccbb8
+  NewRelicAgent: b30325c08049ed1b1ed7a77992fa8b56d7b54856
+  PageControls: fc2436c93e79419521a6de5d46d84722593e2949
+  PhoneNumberKit: e3c4dc9f65bc2036639898095c2ab1ef89348f64
+  SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  TTGTagCollectionView: 0d4625aaf7ee3ad755c39d549368a4ce69bd17d1
+  UBottomSheet: a40ddcad489bb6d5f6171ffa96f161e558fcfaf0
+
+PODFILE CHECKSUM: a5792251b33a2c484eb3e43b6e6120965e5bf04b
+
+COCOAPODS: 1.15.2
