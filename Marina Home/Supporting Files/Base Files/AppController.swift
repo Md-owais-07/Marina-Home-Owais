@@ -135,6 +135,9 @@ class AppController {
     var myNotification: NotificationViewController {
         AppStoryBoard.shared.notification.instantiateViewController(withIdentifier: "NotificationViewController_id") as? NotificationViewController ?? NotificationViewController()
     }
+    var cellNotification: NotificationCellVC {
+        AppStoryBoard.shared.profile.instantiateViewController(withIdentifier: "NotificationCellVC") as? NotificationCellVC ?? NotificationCellVC()
+    }
     var myPlp: PLPController{
         AppStoryBoard.shared.plp.instantiateViewController(withIdentifier: "PLPController") as? PLPController ?? PLPController()
     }
@@ -148,6 +151,10 @@ class AppController {
     }
     var productDetails: ProductDetailsVC {
         AppStoryBoard.shared.productDetails.instantiateViewController(withIdentifier: "ProductDetailsVC_id") as? ProductDetailsVC ?? ProductDetailsVC()
+    }
+    var homePdp: HomePdpVC {
+        AppStoryBoard.shared.productDetails.instantiateViewController(withIdentifier: "HomePdpVC_id") as?
+        HomePdpVC ?? HomePdpVC()
     }
     var productDetailsNew: ProductDetailsNewVC {
         AppStoryBoard.shared.productDetails.instantiateViewController(withIdentifier: "ProductDetailsNewVC_id") as? ProductDetailsNewVC ?? ProductDetailsNewVC()

@@ -14,6 +14,9 @@ final class Api {
     var authenticate: ApiModel {
         return ApiModel(method: .post, url: "integration/customer/token")
     }
+    var logOut: ApiModel {
+        return ApiModel(method: .get, url: "eflp4e")
+    }
     var storePushToken: ApiModel {
         return ApiModel(method: .post, url: "pushnotifications/register")
     }

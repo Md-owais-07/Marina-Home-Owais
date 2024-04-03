@@ -68,6 +68,12 @@ class ProductDetailsVC: AppUIViewController, UICollectionViewDelegate, UICollect
 //            }
             // Mark MHIOS-1072
         }
+    @IBAction func navigateButton(_ sender: Any) {
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let vc = AppController.shared.homePdp
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
     func closePopup() {
         if bottomSheetOpenStatus == true

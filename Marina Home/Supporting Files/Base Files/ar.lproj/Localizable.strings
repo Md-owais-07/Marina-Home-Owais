@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Marina Home
+
+  Created by Mohammad Owais on 03/04/24.
+  
+*/
+
+"HEADER_KEY" = "مرحباً";
+"LOGIN/REGISTER_KEY" = "تسجيل الدخول/تسجيل_مفتاح";
+"BASIC_KEY" = "معلومات أساسية. وللخروج بشكل أسرع";
+"MYORDER_KEY" = "طلباتي";
+"CHECKORDER_KEY" = "تحقق من تفاصيل الطلب وحالته";
+"MYWISHLIST_KEY" = "قائمة امنياتي";
+"FAVOURITEITEMS_KEY" = "العناصر المفضلة المدرجة من قبلك";
+"NOTIFICATIONCENTER_KEY" = "مركز الإخطار";
+"VIEWALLNOTIFICATION_KEY" = "عرض جميع الإخطارات الخاصة بك";
+"PUSHNOTIFICATION_KEY" = "دفع الإخطارات";
+"RECEIVEPUSHNOTIFICATION_KEY" = "تلقي الإخطارات دفع";
+"MYLOCATION_KEY" = "موقعي";
+"USA_KEY" = "الإمارات العربية المتحدة";
+"LANGUAGE_KEY" = "لغة";
+"SELECTCOUNTRY_KEY" = "اختر لغتك";
+"LEGACY_KEY" = "إرث";
+"STORELOCATION_KEY" = "فروعنا";
+"ONLINERETURNS_KEY" = "الإرجاع عبر الإنترنت";
+"PRIVACYPOLICY_KEY" = "سياسة الخصوصية";
